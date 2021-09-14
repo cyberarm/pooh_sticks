@@ -32,14 +32,15 @@
      inkscape:snap-bbox="true"
      inkscape:snap-bbox-midpoints="true"
      inkscape:zoom="4"
-     inkscape:cx="-29.875"
-     inkscape:cy="53.875"
+     inkscape:cx="-18.625"
+     inkscape:cy="56.125"
      inkscape:window-width="1920"
      inkscape:window-height="1011"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer1">
+     inkscape:current-layer="layer1"
+     inkscape:snap-nodes="false">
     <inkscape:grid
        type="xygrid"
        id="grid7310"
@@ -147,19 +148,36 @@
        cy="10.583334"
        rx="3.7041667"
        ry="0.92604166" />
-    <ellipse
-       style="fill:#e5a50a;stroke-width:0.264583"
-       id="path9181"
-       cx="2.1166668"
-       cy="19.049999"
-       rx="1.5875001"
-       ry="6.3500004" />
-    <ellipse
-       style="fill:#e5a50a;stroke-width:0.264583"
-       id="path9181-2"
-       cx="14.816667"
-       cy="19.049999"
-       rx="1.5875001"
-       ry="6.3500004" />
+    <g
+       id="g5115">
+      <ellipse
+         style="fill:#a51d2d;stroke-width:0.264583"
+         id="path9181-2"
+         cx="14.816667"
+         cy="19.049999"
+         rx="1.5875001"
+         ry="6.3500004" />
+      <path
+         id="ellipse4970"
+         style="fill:#e5a50a;stroke-width:0.999999"
+         d="M 50.023438 69.978516 A 6.0000003 24.000001 0 0 0 50 72 A 6.0000003 24.000001 0 0 0 56 96 A 6.0000003 24.000001 0 0 0 62 72 A 6.0000003 24.000001 0 0 0 61.978516 69.978516 L 50.023438 69.978516 z "
+         transform="scale(0.26458334)" />
+    </g>
+    <g
+       id="g5115-5"
+       transform="translate(-12.7)">
+      <ellipse
+         style="fill:#a51d2d;stroke-width:0.264583"
+         id="path9181-2-6"
+         cx="14.816667"
+         cy="19.049999"
+         rx="1.5875001"
+         ry="6.3500004" />
+      <path
+         id="ellipse4970-2"
+         style="fill:#e5a50a;stroke-width:0.999999"
+         d="M 50.023438,69.978516 A 6.0000003,24.000001 0 0 0 50,72 6.0000003,24.000001 0 0 0 56,96 6.0000003,24.000001 0 0 0 62,72 6.0000003,24.000001 0 0 0 61.97852,69.978516 Z"
+         transform="scale(0.26458334)" />
+    </g>
   </g>
 </svg>

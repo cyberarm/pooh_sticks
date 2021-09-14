@@ -28,7 +28,7 @@
      showgrid="false"
      units="px"
      inkscape:zoom="5.4805275"
-     inkscape:cx="-9.2144415"
+     inkscape:cx="-12.316333"
      inkscape:cy="44.794958"
      inkscape:window-width="1920"
      inkscape:window-height="1011"
@@ -48,7 +48,7 @@
      inkscape:groupmode="layer"
      id="layer1">
     <ellipse
-       style="fill:#cdab8f;stroke-width:0.264583;opacity:0.25"
+       style="fill:#000000;stroke-width:0.264583;opacity:0.1"
        id="path9835"
        cx="8.4666672"
        cy="8.4666672"

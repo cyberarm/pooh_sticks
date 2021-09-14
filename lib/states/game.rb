@@ -5,6 +5,7 @@ class PoohSticks
       @trail = get_image("#{GAME_ROOT_PATH}/media/trail.png")
       @bear = get_image("#{GAME_ROOT_PATH}/media/bear.png")
       @stick = get_image("#{GAME_ROOT_PATH}/media/stick.png")
+      @tree = get_image("#{GAME_ROOT_PATH}/media/tree.png")
       @shadow = get_image("#{GAME_ROOT_PATH}/media/shadow.png")
 
       @song = get_song("#{GAME_ROOT_PATH}/media/songs/distortion_by_centurion_of_war_oga.ogg")
@@ -39,6 +40,9 @@ class PoohSticks
         @trail.draw(0, canvas_height / 2.0 - @trail.height / 2, 0)
         @shadow.draw_rot(@x + @bear.width / 2, @y + @bear.height, 0)
         @bear.draw(@x, @y, 0)
+
+        @tree.draw(300, 40, 0)
+        @tree.draw(1450, 25, 0)
 
         @stick.draw(@x + 16, @y + 128 + 16, 0)
       end
