@@ -20,6 +20,7 @@ class PoohSticks
       @angle = 0
 
       @color = Gosu::Color::WHITE
+      @shadow_color = Gosu::Color.rgba(0, 0, 0, 255.0 * 0.1)
 
       setup
     end

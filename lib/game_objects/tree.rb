@@ -39,6 +39,8 @@ class PoohSticks
         if Gosu.milliseconds - @last_drop_at >= @stick_drop_interval
           @last_drop_at = Gosu.milliseconds
 
+          return unless window.current_state.game_objects.select { |s| s.is_a?(PoohSticks::GameObject::Stick) }.count < 7
+
           @managed_sticks << PoohSticks::GameObject::Stick.new(
             x: @position.x + SecureRandom.random_number(-75..75),
             y: @position.y - @image.height / 2 + SecureRandom.random_number(64),
