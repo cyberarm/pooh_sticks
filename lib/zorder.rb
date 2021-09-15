@@ -11,5 +11,6 @@ class PoohSticks
     TREE_INFRONT = 5
 
     STICK        = DECORATIONS
+    STICK_IN_FLIGHT = 6
   end
 end
